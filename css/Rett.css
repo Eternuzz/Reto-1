@@ -1,0 +1,258 @@
+header{
+    display: flex;
+    
+    height: 24vh;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.centro{
+    height: 70%;
+    display: flex;
+    
+    border-radius: 20px 20px 0 0;
+    
+    background-size:contain;
+    background-position: center;
+    background-image: url(../img/fondgris.jpg);
+
+}
+.text{
+    display: flex;
+    
+    width: 55%;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(34, 34, 34);
+
+}
+.titt{
+    display: flex;
+    width: 80%;
+    font-size: 1.5rem;
+    color:rgb(49, 49, 49);
+    justify-content: center;
+
+}
+.titt1{
+    display: flex;
+    width: 80%;
+    font-size: 3.5rem;
+    justify-content: center;
+}
+.titt2{
+    display: flex;
+    width: 30%;
+    font-size: 3.5rem;
+    justify-content: flex-end;
+}
+
+.imgs{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+.ig{
+    width: 50%;
+    height: 80%;
+    background-image: url(../img/a1.png);
+    background-size: contain;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ig1{
+    width: 50%;
+    height: 80%;
+    background-image: url(../img/ca2.png);
+    background-size: cover;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.barra{
+    height: 30%;
+    display: flex;
+    background-color: rgba(35,99,80);
+    justify-content: space-around;
+    align-items: center;
+    
+    border-radius: 0 0 20px 20px;
+}
+.barra a{
+    text-decoration: none;
+    color: silver;
+    font-size: 2rem;
+}
+.barra p{
+    font-size: 2rem;
+    color: silver;
+}
+main{
+    display: flex;
+    height: 55vh;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.main1{
+    display: flex;
+    height: 96%;
+    width: 100%;
+   
+    justify-content: space-between;
+    gap: 1rem;
+}
+.contain_art{
+    display: flex;
+    flex-direction: column;
+    
+    width: 55%;
+    height: 100%;
+    justify-content: space-between;
+}
+.art1{
+    display:flex;
+    height: 48%;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 30px 0 0;
+    background-color: rgb(243, 241, 149);
+}
+.art2{
+    display:flex;
+    height: 48%;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 30px 30px;
+    background-color: rgb(243, 241, 149);
+}
+.lore{
+    display: flex;
+   
+    width: 96%;
+    height: 88%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.lore p{
+    
+    width: 68%;
+    height: 90%;
+}
+.tit{
+    display: flex;
+    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.tit p{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    font-size: 1.2rem;
+    color: black;
+    width: 96%;
+    
+}
+.img_perrito1{
+    width: 30%;
+    height: 60%;
+    border: 2px solid;
+    border-radius: 20px;
+    background-image: url(../img/Perro1.png);
+    background-size: cover;
+}
+.img_perrito2{
+    display: flex;
+    width: 30%;
+    height: 60%;
+    border: 2px solid;
+    border-radius: 20px;
+    background-image: url(../img/perro2.png);
+    background-size: cover;
+}
+aside{
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height:100% ;
+    border-radius: 30px;
+    
+}
+.soc{
+    display: flex;
+   font-size: 1.8rem;
+    border-radius: 30px 30px 0 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 75, 60);
+}
+.form{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+    background-color: rgba(35, 99, 80, 0.438);
+
+}
+.div{
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+.div p{
+    
+    width: 40%;
+    color: dimgray;
+    font-size: 14px;
+}
+.div input{
+    width: 40%;
+    border: 2px solid;
+    border-color: darkgrey;
+}
+button{
+    width: 60%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 30px 30px;
+    background-color: rgba(35, 99, 80);
+}
+.tex-ft{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    align-items: center;
+    color: silver;
+}
+
+
+
